@@ -22,13 +22,23 @@ Troubleshooting scenarios for an enterprise inter VLAN scenario
 <img width="48%" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/91072571-a053-4278-8a73-0d231f9b5477" />
 <br/>
 
-1. I made a rough note of the key points before troubleshooting, which were:
-<dl>
-        <dd>• Finance gets IP addresses, but IPs are strange, don't belong to expected subnet</dd>
-        <dd>• Finance pings to OPs work sometimes</dd>
-  
-</dl>
+I made a rough note of the key points before troubleshooting, to help me:
+    <ul>
+      <li>Finance gets IP addresses, but IPs are strange, don't belong to expected subnet</li>
+      <li>Finance pings to OPs work sometimes, but inconsistent</li>
+      <li>Operations see occasional weird behaviour when trying to reach finance</li>
+      <li>Network team did some trunk optimisation work between D1 and access switches yesterday
+    </ul>
+</ol>
 
+Step 1: `Layer 1`
+    <ul>
+      <li>Checked cabling on every connection, to make sure right cables were used - </li>
+      <li>Finance pings to OPs work sometimes, but inconsistent</li>
+      <li>Operations see occasional weird behaviour when trying to reach finance</li>
+      <li>Network team did some trunk optimisation work between D1 and access switches yesterday
+    </ul>
+</ol>
 
 
 
