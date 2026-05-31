@@ -48,26 +48,22 @@ Scenarios for  enterprise inter VLAN support
 - I typed `show ip interface brief` to verify and saw all required interfaces are up
 - The next step was to check D1 for the SVIs, using `show ip interface brief` in global config mode.
 - The SVIs were up witht he right ip addresses, both up/up.
-- The next thing i did was check the finacne IP addresses, since they were reporting weird IP addresses.
-- 
+- The next thing i did was check the finance IP addresses, since they were reporting weird IP addresses.
+- There PCs had the signature Class C private ip addresses of 192.168......
+- The previos VLAN mismatch could have easily caused this, as the IP information from D1 would not be able to reach the computers
+- I reset the DHCP config on the devices by switching to static briefly, so the IP addresses could update.
+
+<img width="350" height="194" alt="image" src="https://github.com/user-attachments/assets/0c2b5618-2467-4df3-9578-c4ea08dc8f45" />
+
+<img width="437" height="205" alt="image" src="https://github.com/user-attachments/assets/b112de77-9605-4ea2-a0ed-fbcd8491b488" />
 
 
+After solving the IP issue, the last issue to check was reachability, so I decided to ping from one vlan to another, to test inter vlan connectivity.
 
 
-
-
-
-
-
-
-
-
-
-
-
-<img width="688" height="363" alt="image" src="https://github.com/user-attachments/assets/ae15cfe5-44db-4487-b251-5b51f0addf49" />
 <img width="598" height="457" alt="image" src="https://github.com/user-attachments/assets/671a3580-beed-48a2-bef4-eac87ecf0f74" />
 
-![Uploading image.png…]()
+Yes the first one failed, due to ARP most likely, but the pings worked. 
+
 
 
