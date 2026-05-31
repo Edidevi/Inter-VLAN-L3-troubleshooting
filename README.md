@@ -8,7 +8,7 @@ Scenarios for  enterprise inter VLAN support
 **Priority:** `P2 — High` **Reported by:** `Karen W., Finance` **Assigned to:** `Network Support` **Time logged:** `11:04 AM`
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6a8e1fd8-fe62-49e5-9f4e-656e04b2e36e" />
 
-**<ins>Ticket Key Points:<ins>**
+**<ins>Ticket Key Points:</ins>**
     
 - Finance gets IP addresses, but IPs are strange, don't belong to expected subnet
 - Finance pings to OPs work sometimes, but inconsistent
