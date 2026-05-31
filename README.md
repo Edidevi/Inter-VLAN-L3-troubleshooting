@@ -4,9 +4,6 @@
 Troubleshooting scenarios for an enterprise inter VLAN scenario
 
 
-## 🧠 Troubleshooting 
-
-
 ## 🎫 Incident Ticket #INC-00851
 **Priority:** `P2 — High` **Reported by:** `James T. IT` **Assigned to:** `Network Support` **Time logged:** `09:15 AM`
 <img width="300" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/94da311f-1d76-4e82-911b-1a8fe6ba70ef" />
