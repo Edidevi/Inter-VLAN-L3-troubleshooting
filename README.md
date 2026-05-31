@@ -27,7 +27,7 @@ Scenarios for  enterprise inter VLAN support
  
 <br>
 
-**<ins>Step 1: Layer 1 & Vlan mismatch issue <ins>**
+**<ins>Step 1: Layer 1 & Vlan mismatch issue<ins>**
     
 - I started troubleshooting systematically at Layer 1
 - Checked cabling on every connection, to make sure right cables were used 
@@ -43,7 +43,7 @@ Scenarios for  enterprise inter VLAN support
 
 
 
-**<ins>Step 2: Layer 2 & L3 <ins>**
+**<ins>Step 2: Layer 2 & L3<ins>**
 - I then resumed my systematic troubleshooting by returning to **SW-OPS** to check the interfaces
 - I typed `show ip interface brief` to verify and saw all required interfaces are up
 - The next step was to check D1 for the SVIs, using `show ip interface brief` in global config mode.
