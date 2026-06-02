@@ -61,10 +61,3 @@ Yes the first one failed, due to ARP most likely, but the pings worked.
 - ~~Finance pings to OPs work sometimes, but inconsistent~~ inter vlan connectivity works, fully functional pings are displayed in the screenshots.
   
 
-
-
-
-
-## 🎫 Incident Ticket #INC-00917
-**Priority:** `P2 — High` **Reported by:** `Derek N., Sales` **Assigned to:** `Network Support` **Time logged:** `15:38 PM`
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d7958a35-3bb1-4ded-aa15-4c1c4173f31f" />
